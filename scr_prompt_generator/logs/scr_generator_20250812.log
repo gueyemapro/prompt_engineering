@@ -1,0 +1,54 @@
+2025-08-12 00:47:58,068 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 00:47:58,068 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 00:47:58,069 - src.main - INFO - Répertoire de données: data
+2025-08-12 00:47:58,069 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 00:47:58,069 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 00:47:58,069 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 00:47:58,070 - src.prompts.generator - INFO - Prompt généré avec succès (3878 caractères)
+2025-08-12 00:47:58,071 - src.main - INFO - Fermeture du système après 0:00:00.002451
+2025-08-12 00:47:58,071 - src.main - INFO - Documents traités: 0
+2025-08-12 00:47:58,071 - src.main - INFO - Prompts générés: 1
+2025-08-12 00:47:58,071 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 00:47:58,072 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 01:00:45,994 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 01:00:45,994 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 01:00:45,995 - src.main - INFO - Répertoire de données: data
+2025-08-12 01:00:45,995 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 01:00:45,995 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 01:00:45,995 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 01:00:45,996 - src.prompts.generator - INFO - Prompt généré avec succès (3878 caractères)
+2025-08-12 01:00:45,998 - src.main - INFO - Fermeture du système après 0:00:00.003153
+2025-08-12 01:00:45,998 - src.main - INFO - Documents traités: 0
+2025-08-12 01:00:45,998 - src.main - INFO - Prompts générés: 1
+2025-08-12 01:00:45,998 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 01:00:45,998 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 01:08:57,278 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 01:08:57,278 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 01:08:57,278 - src.main - INFO - Répertoire de données: data
+2025-08-12 01:08:57,278 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 01:08:57,279 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 01:08:57,279 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 01:08:57,280 - src.prompts.generator - INFO - Prompt généré avec succès (3878 caractères)
+2025-08-12 01:08:57,281 - src.main - INFO - Fermeture du système après 0:00:00.002484
+2025-08-12 01:08:57,281 - src.main - INFO - Documents traités: 0
+2025-08-12 01:08:57,281 - src.main - INFO - Prompts générés: 1
+2025-08-12 01:08:57,281 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 01:08:57,281 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 01:09:21,467 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 01:09:21,468 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 01:09:21,468 - src.main - INFO - Répertoire de données: data
+2025-08-12 01:09:21,468 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 01:09:21,468 - src.main - INFO - Début traitement document: /var/folders/sm/jbrzff_s54n3xnylqdh0w4lm0000gn/T/tmplk0ha8_s.html
+2025-08-12 01:09:21,470 - HTMLParser - INFO - HTML traité: SCR Spread - Article 180 (60 mots)
+2025-08-12 01:09:21,475 - src.knowledge.database - INFO - Document ajouté: eiopa_guidelines_tmplk0ha8_s_87f1e1f3
+2025-08-12 01:09:21,475 - src.main - INFO - Document ajouté avec succès: eiopa_guidelines_tmplk0ha8_s_87f1e1f3
+2025-08-12 01:09:21,478 - src.knowledge.database - INFO - Concept ajouté: spread (ID: 1)
+2025-08-12 01:09:21,480 - src.main - INFO - Concepts extraits automatiquement: 1
+2025-08-12 01:09:21,481 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 01:09:21,481 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 01:09:21,482 - src.prompts.generator - INFO - Prompt généré avec succès (3906 caractères)
+2025-08-12 01:09:21,483 - src.main - INFO - Fermeture du système après 0:00:00.015178
+2025-08-12 01:09:21,483 - src.main - INFO - Documents traités: 1
+2025-08-12 01:09:21,483 - src.main - INFO - Prompts générés: 1
+2025-08-12 01:09:21,483 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 01:09:21,483 - src.main - INFO - SCR Prompt Generator fermé proprement
