@@ -52,3 +52,145 @@
 2025-08-12 01:09:21,483 - src.main - INFO - Prompts générés: 1
 2025-08-12 01:09:21,483 - src.knowledge.database - INFO - Connexion base de données fermée
 2025-08-12 01:09:21,483 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 18:01:54,431 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 18:01:54,431 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 18:01:54,432 - src.main - INFO - Répertoire de données: data
+2025-08-12 18:01:54,432 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 18:01:54,432 - src.main - INFO - Début traitement document: /var/folders/sm/jbrzff_s54n3xnylqdh0w4lm0000gn/T/tmprv8rii5u.html
+2025-08-12 18:01:54,440 - HTMLParser - INFO - HTML traité: Règlement délégué (UE) 2015/35 - SCR de spread (455 mots)
+2025-08-12 18:01:54,445 - src.knowledge.database - INFO - Document ajouté: regulation_eu_tmprv8rii5u_1aae741d
+2025-08-12 18:01:54,445 - src.main - INFO - Document ajouté avec succès: regulation_eu_tmprv8rii5u_1aae741d
+2025-08-12 18:01:54,447 - src.knowledge.database - INFO - Concept ajouté: spread (ID: 2)
+2025-08-12 18:01:54,449 - src.knowledge.database - INFO - Concept ajouté: spread (ID: 3)
+2025-08-12 18:01:54,450 - src.knowledge.database - INFO - Concept ajouté: facteur de stress (ID: 4)
+2025-08-12 18:01:54,452 - src.knowledge.database - INFO - Concept ajouté: facteur de stress (ID: 5)
+2025-08-12 18:01:54,454 - src.knowledge.database - INFO - Concept ajouté: Facteur = 12,5% + (8,2-5) × (25,0% (ID: 6)
+2025-08-12 18:01:54,457 - src.knowledge.database - INFO - Concept ajouté: Facteur = 12,5% + (8,2-5) × (25,0% (ID: 7)
+2025-08-12 18:01:54,460 - src.knowledge.database - INFO - Concept ajouté: Notation (ID: 8)
+2025-08-12 18:01:54,462 - src.knowledge.database - INFO - Concept ajouté: Notation (ID: 9)
+2025-08-12 18:01:54,464 - src.knowledge.database - INFO - Concept ajouté: stress (ID: 10)
+2025-08-12 18:01:54,466 - src.knowledge.database - INFO - Concept ajouté: stress (ID: 11)
+2025-08-12 18:01:54,467 - src.main - INFO - Concepts extraits automatiquement: 10
+2025-08-12 18:01:54,468 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 18:01:54,468 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 18:01:54,469 - src.prompts.generator - INFO - Prompt généré avec succès (4031 caractères)
+2025-08-12 18:01:54,473 - src.main - INFO - Fermeture du système après 0:00:00.041337
+2025-08-12 18:01:54,473 - src.main - INFO - Documents traités: 1
+2025-08-12 18:01:54,473 - src.main - INFO - Prompts générés: 1
+2025-08-12 18:01:54,473 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 18:01:54,473 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 18:01:54,475 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 18:01:54,475 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 18:01:54,475 - src.main - INFO - Répertoire de données: data
+2025-08-12 18:01:54,476 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 18:01:54,476 - src.main - INFO - Début traitement document: /var/folders/sm/jbrzff_s54n3xnylqdh0w4lm0000gn/T/tmpb4e_1_yo.html
+2025-08-12 18:01:54,477 - HTMLParser - INFO - HTML traité: EIOPA Guidelines Spread Risk (53 mots)
+2025-08-12 18:01:54,479 - src.knowledge.database - INFO - Document ajouté: eiopa_guidelines_tmpb4e_1_yo_55785068
+2025-08-12 18:01:54,479 - src.main - INFO - Document ajouté avec succès: eiopa_guidelines_tmpb4e_1_yo_55785068
+2025-08-12 18:01:54,479 - src.main - INFO - Concepts extraits automatiquement: 0
+2025-08-12 18:01:54,481 - src.main - INFO - Début traitement document: /var/folders/sm/jbrzff_s54n3xnylqdh0w4lm0000gn/T/tmpgwa8d2z1.html
+2025-08-12 18:01:54,482 - HTMLParser - INFO - HTML traité: SCR Equity Risk (40 mots)
+2025-08-12 18:01:54,483 - src.knowledge.database - INFO - Document ajouté: technical_standards_tmpgwa8d2z1_975712f1
+2025-08-12 18:01:54,483 - src.main - INFO - Document ajouté avec succès: technical_standards_tmpgwa8d2z1_975712f1
+2025-08-12 18:01:54,484 - src.main - INFO - Concepts extraits automatiquement: 0
+2025-08-12 18:01:54,484 - src.main - INFO - Fermeture du système après 0:00:00.008639
+2025-08-12 18:01:54,484 - src.main - INFO - Documents traités: 2
+2025-08-12 18:01:54,484 - src.main - INFO - Prompts générés: 0
+2025-08-12 18:01:54,484 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 18:01:54,484 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 18:24:07,998 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 18:24:07,999 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 18:24:07,999 - src.main - INFO - Répertoire de données: data
+2025-08-12 18:24:07,999 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 18:24:07,999 - src.main - INFO - Début traitement document: data/documents/regulations/reglement_delegue_2015_35.pdf
+2025-08-12 18:24:08,294 - PDFParser - WARNING - Document volumineux (797 pages), traitement partiel
+2025-08-12 18:24:14,786 - PDFParser - INFO - PDF traité: reglement_delegue_2015_35.pdf (200 pages, 132639 mots)
+2025-08-12 18:24:14,898 - src.knowledge.database - INFO - Document ajouté: regulation_eu_reglement_delegue_20_079a8305
+2025-08-12 18:24:14,899 - src.main - INFO - Document ajouté avec succès: regulation_eu_reglement_delegue_20_079a8305
+2025-08-12 18:24:14,918 - src.knowledge.database - INFO - Concept ajouté: facteur s suivants (ID: 12)
+2025-08-12 18:24:14,920 - src.knowledge.database - INFO - Concept ajouté: facteur s suivants (ID: 13)
+2025-08-12 18:24:14,922 - src.knowledge.database - INFO - Concept ajouté: facteur s suivants (ID: 14)
+2025-08-12 18:24:14,924 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 15)
+2025-08-12 18:24:14,926 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 16)
+2025-08-12 18:24:14,928 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 17)
+2025-08-12 18:24:14,935 - src.knowledge.database - INFO - Concept ajouté: facteurs appropr iés, y compris (ID: 18)
+2025-08-12 18:24:14,936 - src.knowledge.database - INFO - Concept ajouté: facteurs appropr iés, y compris (ID: 19)
+2025-08-12 18:24:14,938 - src.knowledge.database - INFO - Concept ajouté: facteurs appropr iés, y compris (ID: 20)
+2025-08-12 18:24:14,945 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 21)
+2025-08-12 18:24:14,946 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 22)
+2025-08-12 18:24:14,947 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 23)
+2025-08-12 18:24:14,949 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 24)
+2025-08-12 18:24:14,950 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 25)
+2025-08-12 18:24:14,951 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 26)
+2025-08-12 18:24:14,952 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 27)
+2025-08-12 18:24:14,954 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 28)
+2025-08-12 18:24:14,956 - src.knowledge.database - INFO - Concept ajouté: facteurs suivants (ID: 29)
+2025-08-12 18:24:14,957 - src.knowledge.database - INFO - Concept ajouté: facteur s suivants (ID: 30)
+2025-08-12 18:24:14,959 - src.knowledge.database - INFO - Concept ajouté: facteur s suivants (ID: 31)
+2025-08-12 18:24:14,961 - src.knowledge.database - INFO - Concept ajouté: facteur s suivants (ID: 32)
+2025-08-12 18:24:14,962 - src.knowledge.database - INFO - Concept ajouté: facteurs et critères suivants (ID: 33)
+2025-08-12 18:24:14,963 - src.knowledge.database - INFO - Concept ajouté: facteurs et critères suivants (ID: 34)
+2025-08-12 18:24:14,964 - src.knowledge.database - INFO - Concept ajouté: facteurs et critères suivants (ID: 35)
+2025-08-12 18:24:15,037 - src.knowledge.database - INFO - Concept ajouté: rating�0,03; 1� � ÞþΔLiab ul où (ID: 36)
+2025-08-12 18:24:15,039 - src.knowledge.database - INFO - Concept ajouté: rating�0,03; 1� � ÞþΔLiab ul où (ID: 37)
+2025-08-12 18:24:15,040 - src.knowledge.database - INFO - Concept ajouté: rating�0,03; 1� � ÞþΔLiab ul où (ID: 38)
+2025-08-12 18:24:15,072 - src.knowledge.database - INFO - Concept ajouté: stressðlob,upÞ où (ID: 39)
+2025-08-12 18:24:15,074 - src.knowledge.database - INFO - Concept ajouté: stressðlob,upÞ où (ID: 40)
+2025-08-12 18:24:15,075 - src.knowledge.database - INFO - Concept ajouté: stressðlob,upÞ où (ID: 41)
+2025-08-12 18:24:15,078 - src.knowledge.database - INFO - Concept ajouté: stressðlob,downÞ où (ID: 42)
+2025-08-12 18:24:15,079 - src.knowledge.database - INFO - Concept ajouté: stressðlob,downÞ où (ID: 43)
+2025-08-12 18:24:15,080 - src.knowledge.database - INFO - Concept ajouté: stressðlob,downÞ où (ID: 44)
+2025-08-12 18:24:15,085 - src.knowledge.database - INFO - Concept ajouté: stress i¼minðb i�dur i;1Þ où (ID: 45)
+2025-08-12 18:24:15,087 - src.knowledge.database - INFO - Concept ajouté: stress i¼minðb i�dur i;1Þ où (ID: 46)
+2025-08-12 18:24:15,088 - src.knowledge.database - INFO - Concept ajouté: stress i¼minðb i�dur i;1Þ où (ID: 47)
+2025-08-12 18:24:15,090 - src.knowledge.database - INFO - Concept ajouté: stress i¼minðb i�dur i;1Þ où (ID: 48)
+2025-08-12 18:24:15,092 - src.knowledge.database - INFO - Concept ajouté: stress i¼minðb i�dur i;1Þ où (ID: 49)
+2025-08-12 18:24:15,094 - src.knowledge.database - INFO - Concept ajouté: stress i¼minðb i�dur i;1Þ où (ID: 50)
+2025-08-12 18:24:15,096 - src.knowledge.database - INFO - Concept ajouté: stressi est calculé comme suit (ID: 51)
+2025-08-12 18:24:15,098 - src.knowledge.database - INFO - Concept ajouté: stressi est calculé comme suit (ID: 52)
+2025-08-12 18:24:15,100 - src.knowledge.database - INFO - Concept ajouté: stressi est calculé comme suit (ID: 53)
+2025-08-12 18:24:15,101 - src.knowledge.database - INFO - Concept ajouté: stressi selon le tableau suivant (ID: 54)
+2025-08-12 18:24:15,103 - src.knowledge.database - INFO - Concept ajouté: stressi selon le tableau suivant (ID: 55)
+2025-08-12 18:24:15,105 - src.knowledge.database - INFO - Concept ajouté: stressi selon le tableau suivant (ID: 56)
+2025-08-12 18:24:15,112 - src.main - INFO - Concepts extraits automatiquement: 45
+2025-08-12 18:24:15,113 - src.main - INFO - Fermeture du système après 0:00:07.114714
+2025-08-12 18:24:15,113 - src.main - INFO - Documents traités: 1
+2025-08-12 18:24:15,114 - src.main - INFO - Prompts générés: 0
+2025-08-12 18:24:15,114 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 18:24:15,114 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 18:25:16,838 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 18:25:16,839 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 18:25:16,839 - src.main - INFO - Répertoire de données: data
+2025-08-12 18:25:16,839 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 18:25:16,839 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 18:25:16,839 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 18:25:16,842 - src.prompts.generator - INFO - Prompt généré avec succès (5650 caractères)
+2025-08-12 18:25:16,844 - src.main - INFO - Fermeture du système après 0:00:00.004613
+2025-08-12 18:25:16,844 - src.main - INFO - Documents traités: 0
+2025-08-12 18:25:16,844 - src.main - INFO - Prompts générés: 1
+2025-08-12 18:25:16,844 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 18:25:16,844 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 18:50:56,409 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 18:50:56,409 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 18:50:56,409 - src.main - INFO - Répertoire de données: data
+2025-08-12 18:50:56,410 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 18:50:56,410 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 18:50:56,410 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 18:50:56,412 - src.prompts.generator - INFO - Prompt généré avec succès (5650 caractères)
+2025-08-12 18:50:56,414 - src.main - INFO - Fermeture du système après 0:00:00.004263
+2025-08-12 18:50:56,414 - src.main - INFO - Documents traités: 0
+2025-08-12 18:50:56,414 - src.main - INFO - Prompts générés: 1
+2025-08-12 18:50:56,414 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 18:50:56,414 - src.main - INFO - SCR Prompt Generator fermé proprement
+2025-08-12 18:51:31,047 - src.knowledge.database - INFO - Base de connaissances initialisée: ./data/scr_knowledge.db
+2025-08-12 18:51:31,048 - src.main - INFO - SCR Prompt Generator initialisé avec succès
+2025-08-12 18:51:31,048 - src.main - INFO - Répertoire de données: data
+2025-08-12 18:51:31,048 - src.main - INFO - Base de données: ./data/scr_knowledge.db
+2025-08-12 18:51:31,049 - src.main - INFO - Génération prompt: claude-sonnet-4 - spread - expert
+2025-08-12 18:51:31,049 - src.prompts.generator - INFO - Génération prompt: claude-sonnet-4 - spread
+2025-08-12 18:51:31,053 - src.prompts.generator - INFO - Prompt généré avec succès (5650 caractères)
+2025-08-12 18:51:31,055 - src.main - INFO - Fermeture du système après 0:00:00.007135
+2025-08-12 18:51:31,055 - src.main - INFO - Documents traités: 0
+2025-08-12 18:51:31,056 - src.main - INFO - Prompts générés: 1
+2025-08-12 18:51:31,056 - src.knowledge.database - INFO - Connexion base de données fermée
+2025-08-12 18:51:31,056 - src.main - INFO - SCR Prompt Generator fermé proprement

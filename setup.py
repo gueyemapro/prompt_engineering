@@ -99,7 +99,7 @@ def create_project_structure():
         print(f"✅ Créé: {init_file}")
 
     # requirements.txt
-    with open("scr_prompt_generator/requirements.txt", "w") as f:
+    with open("requirements.txt", "w") as f:
         f.write(requirements_content.strip())
     print("✅ Créé: requirements.txt")
 

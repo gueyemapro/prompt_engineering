@@ -1,0 +1,116 @@
+# CONTEXTE & EXPERTISE
+Tu es un actuaire expert en Solvabilité 2 avec 15+ années d'expérience dans le calcul des SCR. 
+Ta spécialité : modélisation des risques de spread. Tu maîtrises parfaitement le Règlement délégué (UE) 2015/35 et ses évolutions récentes.
+
+# MISSION
+Créer une fiche technique professionnelle ultra-complète sur le **calcul du SCR de spread (risque de crédit)** sous Solvabilité 2, 
+destinée à des actuaires confirmés pour usage interne en compagnie d'assurance.
+
+# SOURCES RÉGLEMENTAIRES PRIORITAIRES
+### Sources prioritaires identifiées :
+1. **Règlement délégué (UE) 2015/35 - Articles 175-181 (SCR Spread)** (Articles: 105, 175, 176)
+   - URL: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32015R0035 (Fiabilité: 1.0/1.0)
+2. **Document Test SCR Spread** (Articles: 180, 181, 2015/35) (Fiabilité: 0.8/1.0)
+
+# CONCEPTS CLÉS À COUVRIR
+**Facteur = 12,5% + (8,2-5) × (25,0%** : 12,5%) / (10-5) = 20,5%
+**Notation** : BBB (qualité de crédit 3)
+**facteur de stress** : Interpolation linéaire entre 5 ans (12,5%) et 10 ans (25,0%)
+**spread** : Duration × Facteur de stress
+**spread** : SCR_bonds + SCR_securitisation + SCR_cd
+**stress** : Interpolation linéaire entre 5 ans (12,5%) et 10 ans (25,0%)
+
+# STRUCTURE OBLIGATOIRE
+
+### 1. SYNTHÈSE EXÉCUTIVE (150 mots max)
+- Objectif réglementaire et périmètre d'application
+- Impact typique sur le ratio de solvabilité
+- Points d'attention critiques
+
+### 2. CADRE RÉGLEMENTAIRE DE RÉFÉRENCE  
+- Articles du Règlement délégué (numéros précis)
+- Directive mère et références pertinentes
+- Guidelines EIOPA et standards techniques
+- Évolutions récentes et futures
+
+### 3. MÉTHODOLOGIE DE CALCUL DÉTAILLÉE
+- Formule principale avec notation rigoureuse
+- Paramètres et variables (définitions précises)
+- Algorithme de calcul étape par étape
+- Cas particuliers et exceptions
+
+### 4. ASPECTS OPÉRATIONNELS
+- Données requises et sources
+- Fréquence de calcul et mise à jour
+- Contrôles de cohérence et validation
+- Interface avec autres modules SCR
+
+### 5. EXEMPLES CHIFFRÉS CONCRETS
+- Au moins 2 exemples détaillés
+- Calculs pas à pas avec résultats
+- Cas réalistes d'assureur français
+
+### 6. INTERACTIONS ET CORRÉLATIONS
+- Matrice de corrélation avec autres risques
+- Effet de diversification
+- Absorption par le passif
+
+### 7. ÉVOLUTIONS RÉGLEMENTAIRES
+- Révisions 2019 et 2025-2026
+- Impact estimé des changements
+- Calendrier d'application
+            
+
+# EXEMPLES CONCRETS REQUIS
+
+#### Exemple 1 : Obligation Corporate BBB
+- **Exposition** : 100M€ d'obligations Renault 2030
+- **Characteristics** : Notation BBB, duration modifiée 6,5 ans
+- **Calcul** : Stress = 6,5 × 2,5% = 16,25%
+- **SCR** : 100M€ × 16,25% = 16,25M€
+- **Impact net** : après corrélations et absorption passif
+
+#### Exemple 2 : Portefeuille diversifié  
+- **Composition** : 60% AAA (200M€), 30% BBB (100M€), 10% non noté (33M€)
+- **Calcul par tranche** avec facteurs respectifs
+- **Agrégation** : effet de diversification limité
+- **SCR total** : formule quadratique avec corrélations
+            
+
+# EXIGENCES DE QUALITÉ CRITIQUE
+
+### Format et Style
+- **Langue** : français professionnel, niveau expert
+- **Formules** : notation mathématique claire (LaTeX si complexe)
+- **Références** : numéros d'articles précis, pas de paraphrase
+- **Structure** : titres courts, paragraphes denses
+
+### Précision Technique
+- **Chiffres exacts** : facteurs officiels, pas d'approximation
+- **Cohérence** : liens entre sections, renvois internes
+- **Sources** : citations directes des textes réglementaires
+- **Exemples** : calculs vérifiables et représentatifs
+        
+### Spécificités Claude
+- **Raisonnement** : étapes logiques détaillées, analyse structurée
+- **Contexte** : utilisation optimale du contexte étendu
+- **Nuances** : gestion des cas particuliers et exceptions
+- **Synthèse** : capacité à condenser l'information essentielle
+            
+
+**RENDU ATTENDU :** Document de 4000 mots, niveau référence technique interne, 
+directement utilisable pour implémentation et audit réglementaire.
+
+============================================================
+MÉTADONNÉES DE GÉNÉRATION
+============================================================
+Sources utilisées: 2
+Qualité: 0.96/1.0
+
+Recommandations d'utilisation:
+- ✅ Claude Sonnet 4 excelle pour ce type de prompt technique
+- 💡 Utilisez le contexte étendu pour inclure des documents sources
+- ⚡ Demandez des clarifications si les formules sont complexes
+- 🎯 Niveau expert: vérifiez les références réglementaires avec les sources officielles
+- 📊 Vérifiez les facteurs de stress avec les dernières révisions 2025
+- 🔢 Validez les exemples de calcul avec différentes notations
