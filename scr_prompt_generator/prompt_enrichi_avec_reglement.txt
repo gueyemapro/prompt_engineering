@@ -1,116 +1,122 @@
-# CONTEXTE & EXPERTISE
-Tu es un actuaire expert en Solvabilité 2 avec 15+ années d'expérience dans le calcul des SCR. 
-Ta spécialité : modélisation des risques de spread. Tu maîtrises parfaitement le Règlement délégué (UE) 2015/35 et ses évolutions récentes.
+# PROMPT : FICHE SCR SPREAD SOLVABILITÉ 2
 
-# MISSION
-Créer une fiche technique professionnelle ultra-complète sur le **calcul du SCR de spread (risque de crédit)** sous Solvabilité 2, 
-destinée à des actuaires confirmés pour usage interne en compagnie d'assurance.
+## 🎯 RÔLE & MISSION CRITIQUE
+Tu es **Sophie Martineau**, actuaire senior experte Solvabilité 2 (15 ans d'expérience), spécialisée dans la modélisation des risques de spread. Tu maîtrises parfaitement le Règlement délégué (UE) 2015/35.
 
-# SOURCES RÉGLEMENTAIRES PRIORITAIRES
-### Sources prioritaires identifiées :
-1. **Règlement délégué (UE) 2015/35 - Articles 175-181 (SCR Spread)** (Articles: 105, 175, 176)
-   - URL: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32015R0035 (Fiabilité: 1.0/1.0)
-2. **Document Test SCR Spread** (Articles: 180, 181, 2015/35) (Fiabilité: 0.8/1.0)
+**MISSION PRIORITAIRE :** Produire une fiche technique de référence sur le **calcul du SCR de spread (risque de crédit)** pour actuaires confirmés d'une compagnie d'assurance française. Usage opérationnel immédiat requis.
 
-# CONCEPTS CLÉS À COUVRIR
-**Facteur = 12,5% + (8,2-5) × (25,0%** : 12,5%) / (10-5) = 20,5%
-**Notation** : BBB (qualité de crédit 3)
-**facteur de stress** : Interpolation linéaire entre 5 ans (12,5%) et 10 ans (25,0%)
-**spread** : Duration × Facteur de stress
-**spread** : SCR_bonds + SCR_securitisation + SCR_cd
-**stress** : Interpolation linéaire entre 5 ans (12,5%) et 10 ans (25,0%)
+## 📋 SOURCES RÉGLEMENTAIRES DE RÉFÉRENCE
+- **Règlement délégué (UE) 2015/35** - Articles 175 à 181 (calcul SCR spread)
+- **Article 105** : intégration dans la formule standard
+- **Articles 176-177** : définitions des expositions et facteurs de risque
+- **Article 180** : méthodologie d'interpolation linéaire
 
-# STRUCTURE OBLIGATOIRE
+## 🔢 DONNÉES TECHNIQUES CRITIQUES
 
-### 1. SYNTHÈSE EXÉCUTIVE (150 mots max)
-- Objectif réglementaire et périmètre d'application
-- Impact typique sur le ratio de solvabilité
-- Points d'attention critiques
+### Facteurs de stress officiels (OBLIGATOIRES à utiliser)
+```
+Échelon qualité | Notation | 5 ans | 10 ans | 25 ans
+0 (AAA-AA-)     | AAA-AA-  | 0,9%  | 4,5%   | 4,5%
+1 (A+/A-)       | A+/A-    | 1,1%  | 5,7%   | 5,7%  
+2 (BBB+/BBB-)   | BBB+/BBB-| 1,4%  | 7,3%   | 7,3%
+3 (BB+/BB-)     | BB+/BB-  | 4,5%  | 15,25% | 15,25%
+4 (B+/B-)       | B+/B-    | 7,5%  | 25,0%  | 25,0%
+5-6 (CCC/Non noté)| CCC/NR | 7,5%  | 25,0%  | 25,0%
+```
 
-### 2. CADRE RÉGLEMENTAIRE DE RÉFÉRENCE  
-- Articles du Règlement délégué (numéros précis)
-- Directive mère et références pertinentes
-- Guidelines EIOPA et standards techniques
-- Évolutions récentes et futures
+### Formule maîtresse
+```
+SCR_spread = SCR_bonds + SCR_securitisation + SCR_cd
+SCR_bonds_i = Valeur_marché_i × Duration_modifiée_i × Facteur_stress_i
+```
 
-### 3. MÉTHODOLOGIE DE CALCUL DÉTAILLÉE
-- Formule principale avec notation rigoureuse
-- Paramètres et variables (définitions précises)
-- Algorithme de calcul étape par étape
-- Cas particuliers et exceptions
+### Interpolation linéaire (Article 180)
+```
+Si Duration = D (entre D1 et D2) :
+Facteur(D) = F1 + (D-D1) × (F2-F1) / (D2-D1)
+```
 
-### 4. ASPECTS OPÉRATIONNELS
-- Données requises et sources
-- Fréquence de calcul et mise à jour
-- Contrôles de cohérence et validation
-- Interface avec autres modules SCR
+## 📝 STRUCTURE IMPOSÉE (7 sections - respecter l'ordre)
 
-### 5. EXEMPLES CHIFFRÉS CONCRETS
-- Au moins 2 exemples détaillés
-- Calculs pas à pas avec résultats
-- Cas réalistes d'assureur français
+### **1. SYNTHÈSE EXÉCUTIVE** [Max 150 mots]
+- Objectif réglementaire et périmètre exact
+- Impact typique sur ratio de solvabilité (fourchette %)  
+- **3 points d'attention critiques maximum**
 
-### 6. INTERACTIONS ET CORRÉLATIONS
-- Matrice de corrélation avec autres risques
-- Effet de diversification
-- Absorption par le passif
+### **2. CADRE RÉGLEMENTAIRE**
+- Articles précis du Règlement délégué (citations exactes)
+- Directive 2009/138/CE (articles pertinents)
+- Guidelines EIOPA/GL/2015/13 (mapping notations)
+- **Évolutions :** révisions 2019, package 2025-2026
 
-### 7. ÉVOLUTIONS RÉGLEMENTAIRES
-- Révisions 2019 et 2025-2026
-- Impact estimé des changements
-- Calendrier d'application
-            
+### **3. MÉTHODOLOGIE DE CALCUL** 
+- **Formule principale** (notation rigoureuse avec indices)
+- **Tableau des facteurs complet** (utiliser celui fourni ci-dessus)
+- **Algorithme d'interpolation** avec démonstration numérique
+- **Procédure étape par étape** (6 étapes max, numérotées)
+- **Cas particuliers :** obligations convertibles, OPCVM, non notées
 
-# EXEMPLES CONCRETS REQUIS
+### **4. ASPECTS OPÉRATIONNELS**
+- Sources de données (Bloomberg, gérants, bases internes)
+- **4 contrôles de cohérence maximum** (exhaustivité, valorisation, notation, duration)
+- Fréquences : calcul trimestriel, suivi mensuel
+- Interface autres modules (concentration, contrepartie, marché)
 
-#### Exemple 1 : Obligation Corporate BBB
-- **Exposition** : 100M€ d'obligations Renault 2030
-- **Characteristics** : Notation BBB, duration modifiée 6,5 ans
-- **Calcul** : Stress = 6,5 × 2,5% = 16,25%
-- **SCR** : 100M€ × 16,25% = 16,25M€
-- **Impact net** : après corrélations et absorption passif
+### **5. EXEMPLES CHIFFRÉS** [2 exemples OBLIGATOIRES]
 
-#### Exemple 2 : Portefeuille diversifié  
-- **Composition** : 60% AAA (200M€), 30% BBB (100M€), 10% non noté (33M€)
-- **Calcul par tranche** avec facteurs respectifs
-- **Agrégation** : effet de diversification limité
-- **SCR total** : formule quadratique avec corrélations
-            
+**Exemple 1 : Obligation Corporate BBB (Renault)**
+```
+Données : 100M€, BBB (échelon 2), duration 6,5 ans
+Calcul facteur : 1,4% + (6,5-5) × (7,3%-1,4%) / (10-5) = ?
+SCR final : 100M€ × 6,5 × Facteur = ?
+Impact net après corrélations : ?
+```
 
-# EXIGENCES DE QUALITÉ CRITIQUE
+**Exemple 2 : Portefeuille diversifié**
+```
+- AAA : 200M€, duration 4,2 ans → SCR_AAA = ?
+- BBB : 100M€, duration 8,2 ans → SCR_BBB = ?  
+- Non noté : 33M€, duration 5,8 ans → SCR_NR = ?
+SCR_total = SCR_AAA + SCR_BBB + SCR_NR = ?
+```
 
-### Format et Style
-- **Langue** : français professionnel, niveau expert
-- **Formules** : notation mathématique claire (LaTeX si complexe)
-- **Références** : numéros d'articles précis, pas de paraphrase
-- **Structure** : titres courts, paragraphes denses
+### **6. CORRÉLATIONS & INTERACTIONS**
+- **Matrice de corrélation** (tableau avec autres modules)
+- Calcul effet de diversification (formule quadratique)
+- **Absorption par passif** (mécanisme participation aux bénéfices)
 
-### Précision Technique
-- **Chiffres exacts** : facteurs officiels, pas d'approximation
-- **Cohérence** : liens entre sections, renvois internes
-- **Sources** : citations directes des textes réglementaires
-- **Exemples** : calculs vérifiables et représentatifs
-        
-### Spécificités Claude
-- **Raisonnement** : étapes logiques détaillées, analyse structurée
-- **Contexte** : utilisation optimale du contexte étendu
-- **Nuances** : gestion des cas particuliers et exceptions
-- **Synthèse** : capacité à condenser l'information essentielle
-            
+### **7. ÉVOLUTIONS RÉGLEMENTAIRES**
+- Package révision 2025-2026 : modifications attendues par échelon
+- **Calendrier précis** : Q4 2024 → T1 2025 → 12 mois transition
+- Actions préparatoires (3 actions max)
 
-**RENDU ATTENDU :** Document de 4000 mots, niveau référence technique interne, 
-directement utilisable pour implémentation et audit réglementaire.
+## ⚡ EXIGENCES CRITIQUES NON-NÉGOCIABLES
 
-============================================================
-MÉTADONNÉES DE GÉNÉRATION
-============================================================
-Sources utilisées: 2
-Qualité: 0.96/1.0
+### Style & Précision
+- **Français professionnel niveau expert** - Aucune approximation
+- **Tous les facteurs de stress exacts** - Utiliser tableau fourni
+- **Citations directes articles** : "Art. 175 §2 précise que..."
+- **Calculs vérifiables** - Chaque exemple doit donner le bon résultat
 
-Recommandations d'utilisation:
-- ✅ Claude Sonnet 4 excelle pour ce type de prompt technique
-- 💡 Utilisez le contexte étendu pour inclure des documents sources
-- ⚡ Demandez des clarifications si les formules sont complexes
-- 🎯 Niveau expert: vérifiez les références réglementaires avec les sources officielles
-- 📊 Vérifiez les facteurs de stress avec les dernières révisions 2025
-- 🔢 Validez les exemples de calcul avec différentes notations
+### Optimisation Claude
+- **Raisonnement structuré** : Chaque calcul explicité pas à pas
+- **Liens internes** : Renvois entre sections ("voir section 3.2")  
+- **Cas limites** : Traitement exceptions et situations particulières
+- **Synthèse efficace** : Maximum d'information, minimum de mots
+
+## 🎯 CRITÈRES DE VALIDATION
+
+**Le document final doit permettre de :**
+✅ Calculer le SCR spread sans source externe  
+✅ Reproduire les 2 exemples avec résultats exacts  
+✅ Identifier tous les articles réglementaires cités  
+✅ Appliquer la méthode sur tout portefeuille obligataire  
+✅ Anticiper les évolutions 2025 avec leur calendrier
+
+## 📊 SPÉCIFICATIONS FINALES
+- **Volume :** 4000 mots précisément
+- **Usage :** Référence technique opérationnelle immédiate
+- **Validation :** Compatible audit réglementaire et contrôle interne
+- **Niveau :** Actuaire confirmé - Pas de vulgarisation
+
+**DÉMARRER IMMÉDIATEMENT LA PRODUCTION**
